@@ -1,0 +1,3 @@
+target ‘PhotoObj’ do
+
+end
