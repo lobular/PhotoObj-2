@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE18D0F41D4EDF1E00D9ECA5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE18D0F31D4EDF1E00D9ECA5 /* FirstViewController.m */; };
+		EE24F0081D502D9A005DB98B /* CollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE24F0061D502D9A005DB98B /* CollectionHeaderView.m */; };
+		EE24F0091D502D9A005DB98B /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE24F0071D502D9A005DB98B /* CollectionHeaderView.xib */; };
+		EE24F00D1D503924005DB98B /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EE24F00C1D503924005DB98B /* selected.png */; };
 		EE391C7D1D49E26B00C97A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE391C7C1D49E26B00C97A95 /* main.m */; };
 		EE391C801D49E26B00C97A95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE391C7F1D49E26B00C97A95 /* AppDelegate.m */; };
 		EE391C831D49E26B00C97A95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE391C821D49E26B00C97A95 /* ViewController.m */; };
 		EE391C861D49E26B00C97A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE391C841D49E26B00C97A95 /* Main.storyboard */; };
 		EE391C881D49E26B00C97A95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE391C871D49E26B00C97A95 /* Assets.xcassets */; };
 		EE391C8B1D49E26B00C97A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE391C891D49E26B00C97A95 /* LaunchScreen.storyboard */; };
+		EE391C941D49E88B00C97A95 /* Photos.m in Sources */ = {isa = PBXBuildFile; fileRef = EE391C931D49E88B00C97A95 /* Photos.m */; };
+		EE391C981D49F57B00C97A95 /* PhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE391C961D49F57B00C97A95 /* PhotoViewCell.m */; };
+		EE391C991D49F57B00C97A95 /* PhotoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE391C971D49F57B00C97A95 /* PhotoViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE18D0F21D4EDF1E00D9ECA5 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		EE18D0F31D4EDF1E00D9ECA5 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		EE24F0051D502D9A005DB98B /* CollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionHeaderView.h; sourceTree = "<group>"; };
+		EE24F0061D502D9A005DB98B /* CollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionHeaderView.m; sourceTree = "<group>"; };
+		EE24F0071D502D9A005DB98B /* CollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionHeaderView.xib; sourceTree = "<group>"; };
+		EE24F00C1D503924005DB98B /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
 		EE391C781D49E26B00C97A95 /* PhotoObj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoObj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE391C7C1D49E26B00C97A95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE391C7E1D49E26B00C97A95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,11 @@
 		EE391C871D49E26B00C97A95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE391C8A1D49E26B00C97A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE391C8C1D49E26B00C97A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE391C921D49E88B00C97A95 /* Photos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photos.h; sourceTree = "<group>"; };
+		EE391C931D49E88B00C97A95 /* Photos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photos.m; sourceTree = "<group>"; };
+		EE391C951D49F57B00C97A95 /* PhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
+		EE391C961D49F57B00C97A95 /* PhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
+		EE391C971D49F57B00C97A95 /* PhotoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +78,20 @@
 			children = (
 				EE391C7E1D49E26B00C97A95 /* AppDelegate.h */,
 				EE391C7F1D49E26B00C97A95 /* AppDelegate.m */,
+				EE18D0F21D4EDF1E00D9ECA5 /* FirstViewController.h */,
+				EE18D0F31D4EDF1E00D9ECA5 /* FirstViewController.m */,
 				EE391C811D49E26B00C97A95 /* ViewController.h */,
 				EE391C821D49E26B00C97A95 /* ViewController.m */,
+				EE391C951D49F57B00C97A95 /* PhotoViewCell.h */,
+				EE391C961D49F57B00C97A95 /* PhotoViewCell.m */,
+				EE391C971D49F57B00C97A95 /* PhotoViewCell.xib */,
+				EE24F0051D502D9A005DB98B /* CollectionHeaderView.h */,
+				EE24F0061D502D9A005DB98B /* CollectionHeaderView.m */,
+				EE24F0071D502D9A005DB98B /* CollectionHeaderView.xib */,
+				EE391C921D49E88B00C97A95 /* Photos.h */,
+				EE391C931D49E88B00C97A95 /* Photos.m */,
 				EE391C841D49E26B00C97A95 /* Main.storyboard */,
+				EE24F00C1D503924005DB98B /* selected.png */,
 				EE391C871D49E26B00C97A95 /* Assets.xcassets */,
 				EE391C891D49E26B00C97A95 /* LaunchScreen.storyboard */,
 				EE391C8C1D49E26B00C97A95 /* Info.plist */,
@@ -136,9 +165,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE24F00D1D503924005DB98B /* selected.png in Resources */,
 				EE391C8B1D49E26B00C97A95 /* LaunchScreen.storyboard in Resources */,
 				EE391C881D49E26B00C97A95 /* Assets.xcassets in Resources */,
 				EE391C861D49E26B00C97A95 /* Main.storyboard in Resources */,
+				EE24F0091D502D9A005DB98B /* CollectionHeaderView.xib in Resources */,
+				EE391C991D49F57B00C97A95 /* PhotoViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE391C981D49F57B00C97A95 /* PhotoViewCell.m in Sources */,
+				EE18D0F41D4EDF1E00D9ECA5 /* FirstViewController.m in Sources */,
+				EE391C941D49E88B00C97A95 /* Photos.m in Sources */,
+				EE24F0081D502D9A005DB98B /* CollectionHeaderView.m in Sources */,
 				EE391C831D49E26B00C97A95 /* ViewController.m in Sources */,
 				EE391C801D49E26B00C97A95 /* AppDelegate.m in Sources */,
 				EE391C7D1D49E26B00C97A95 /* main.m in Sources */,
@@ -262,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoObj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pengxiuxiu.PhotoObj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoObj/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pengxiuxiu.PhotoObj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +336,7 @@
 				EE391C911D49E26B00C97A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
